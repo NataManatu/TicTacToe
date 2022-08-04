@@ -1,10 +1,10 @@
-let cell = document.getElementById("cell")
+let cell = document.querySelectorAll("#cell")
 let ticTacToe = document.getElementsByClassName(" TicTacToe")
 
-function one(){
+function place(){
     alert("клик")
 }
 
-for (let index = 0; index <ticTacToe.length; index++) {
-     ticTacToe[index].addEventListener("click",one)
+for (let index = 0; index <cell.length; index++) {
+     cell[index].addEventListener("click",place)
 }
