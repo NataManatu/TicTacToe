@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: burlywood;
+    
+}
+
+.TicTacToe {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.row div {
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    border: 1px solid saddlebrown;
+}
