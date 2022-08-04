@@ -1,14 +1,14 @@
 let cell = document.querySelectorAll("#cell")
 let ticTacToe = document.getElementsByClassName(" TicTacToe")
 let currentPlayer = "O"
-let won = false;
+
 
 // for (let index = 0; index < cell.length; index++) {
 //     cell[index].addEventListener("click", place)
 // }
 
 function place(box) {
-    if (box.innerText != "" || won) return;
+    if (box.innerText != "" ) return;
     box.innerText = currentPlayer;
     currentPlayer == "O" ? currentPlayer = "X" : currentPlayer = "O";
     checkGameBoard()
