@@ -7,4 +7,4 @@ function one(){
 
 for (let index = 0; index <ticTacToe.length; index++) {
      ticTacToe[index].addEventListener("click",one)
-}мт
+}
