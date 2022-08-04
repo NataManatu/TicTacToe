@@ -22,7 +22,7 @@ function checkGameBoard() {
         third.innerText
         if (first == "") continue
         if (first == second && first == third) {
-            alert("победитель")
+            alert("Winner! Well done!")
         }
     }
     for (let i = 0; i <= 2; i++) {
@@ -32,7 +32,7 @@ function checkGameBoard() {
         third.innerText
         if (first == "") continue
         if (first == second && first == third) {
-            alert("победитель")
+            alert("Winner! Well done!")
 
         }
     }
@@ -40,12 +40,12 @@ function checkGameBoard() {
     let secondD1 = document.getElementById("1_1").innerText
     let thirdD1 = document.getElementById("2_2").innerText
     if (firstD1 != "" && firstD1 == secondD1 && firstD1 == thirdD1) {
-        alert("победитель")
+        alert("Winner! Well done!")
     }
     let firstD2 = document.getElementById("0_2").innerText
     let secondD2 = document.getElementById("1_1").innerText
     let thirdD2 = document.getElementById("2_0").innerText
     if (firstD2 != "" && firstD2 == secondD2 && firstD2 == thirdD2) {
-        alert("победитель")
+        alert("Winner! Well done!")
     }
 }

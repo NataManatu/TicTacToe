@@ -6,12 +6,13 @@
 
 body {
     background-color: burlywood;
-
 }
-
+h1{
+    text-align: center;
+    margin-top: 20px;
+    color: aliceblue;
+}
 .TicTacToe {
-   
-   
     margin: 0 auto;
     margin-top: 50px;
     width: 350px;
@@ -19,15 +20,20 @@ body {
     justify-content: center;
     padding: 25px;
     background-color: lightskyblue;
-    
 }
-.row{
-    display: flex;
+
+.row {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto auto auto;
 }
+
 .row div {
-  
     width: 100px;
     height: 100px;
-    padding: 10px;
-    border: 1px solid saddlebrown;
+    padding: 25px;
+    border: 1px dashed saddlebrown;
+    font-size: 40px;
+    text-align: center;
+    color: ivory;
 }
