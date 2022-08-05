@@ -44,19 +44,21 @@ h1 {
 
 .game-over {
     margin: 0 auto;
-    width: 400px;
-    height: 150px;
+    width: 306px;
+    height: 300px;
     background-color: darkolivegreen;
+   opacity: 80%;
     text-align: center;
     color: blanchedalmond;
     position: absolute;
-    margin: -250px 200px;
+    margin: -325px 250px;
     display: none;
 
 }
 
 p {
     margin-top: 70px;
+    font-size: 30px;
    
 }
 

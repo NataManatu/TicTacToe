@@ -22,7 +22,8 @@ function checkGameBoard() {
         third.innerText
         if (first == "") continue
         if (first == second && first == third) {
-            alert("Winner! Well done!")
+            let winner=document.getElementById("winner")
+            winner.style.display="block"
         }
        
     }
@@ -33,8 +34,7 @@ function checkGameBoard() {
         third.innerText
         if (first == "") continue
         if (first == second && first == third) {
-            alert("Winner! Well done!")
-            return
+            winner.style.display="block"
 
         }
     }
