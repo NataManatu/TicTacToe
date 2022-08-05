@@ -7,11 +7,13 @@
 body {
     background-color: burlywood;
 }
-h1{
+
+h1 {
     text-align: center;
     margin-top: 20px;
     color: aliceblue;
 }
+
 .TicTacToe {
     margin: 0 auto;
     margin-top: 50px;
@@ -21,6 +23,7 @@ h1{
     padding: 25px;
     background-color: lightskyblue;
 }
+
 
 .row {
     display: grid;
@@ -36,4 +39,33 @@ h1{
     font-size: 40px;
     text-align: center;
     color: ivory;
+    cursor: pointer;
+}
+
+.game-over {
+    margin: 0 auto;
+    width: 400px;
+    height: 150px;
+    background-color: darkolivegreen;
+    text-align: center;
+    color: blanchedalmond;
+    position: absolute;
+    margin: -250px 200px;
+    display: none;
+
+}
+
+p {
+    margin-top: 70px;
+   
+}
+
+.container {
+    margin: 0 auto;
+    width: 800px;
+    height: 500px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+
 }
