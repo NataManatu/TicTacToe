@@ -24,6 +24,7 @@ function checkGameBoard() {
         if (first == second && first == third) {
             alert("Winner! Well done!")
         }
+       
     }
     for (let i = 0; i <= 2; i++) {
         let first = document.getElementById(i + "_0").innerText
@@ -33,6 +34,7 @@ function checkGameBoard() {
         if (first == "") continue
         if (first == second && first == third) {
             alert("Winner! Well done!")
+            return
 
         }
     }
@@ -41,11 +43,13 @@ function checkGameBoard() {
     let thirdD1 = document.getElementById("2_2").innerText
     if (firstD1 != "" && firstD1 == secondD1 && firstD1 == thirdD1) {
         alert("Winner! Well done!")
+        return
     }
     let firstD2 = document.getElementById("0_2").innerText
     let secondD2 = document.getElementById("1_1").innerText
     let thirdD2 = document.getElementById("2_0").innerText
     if (firstD2 != "" && firstD2 == secondD2 && firstD2 == thirdD2) {
         alert("Winner! Well done!")
+        return
     }
 }
