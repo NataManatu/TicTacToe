@@ -1,3 +1,3 @@
 # TicTacToe
 Simple TicTacToe
-##tic-tac-toe runs in single user mode
+tic-tac-toe runs in single user mode
