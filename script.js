@@ -1,6 +1,6 @@
 let cell = document.querySelectorAll("#cell")
 let ticTacToe = document.getElementsByClassName(" TicTacToe")
-let currentPlayer = "O"
+let currentPlayer = "X"
 
 
 // for (let index = 0; index < cell.length; index++) {
@@ -10,7 +10,7 @@ let currentPlayer = "O"
 function place(box) {
     if (box.innerText != "" ) return;
     box.innerText = currentPlayer;
-    currentPlayer == "O" ? currentPlayer = "X" : currentPlayer = "O";
+    currentPlayer == "X" ? currentPlayer = "O" : currentPlayer = "X";
     checkGameBoard()
 }
 
